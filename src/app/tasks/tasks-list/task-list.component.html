@@ -1,0 +1,4 @@
+<mat-card *ngFor="let task of taskList">{{task.todo}}
+  <button mat-raised-button color="primary" (click)="onDelete(task.id)">Delete</button>
+</mat-card>
+<p class="info-text mat-body-1" *ngIf="taskList.length <= 0">No tasks in queue, enjoy your day !</p>
