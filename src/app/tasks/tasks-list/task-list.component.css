@@ -7,6 +7,10 @@ mat-card{
   margin-top: 0.5rem;
 }
 
+button{
+  float: right;
+}
+
 .info-text{
   text-align: center;
 }
