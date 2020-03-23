@@ -8,7 +8,9 @@ mat-card{
 }
 
 button{
-  float: right;
+  position: absolute;
+  left: 1025px;
+  top: 8px;
 }
 
 .info-text{
