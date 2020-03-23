@@ -18,6 +18,6 @@ export class TaskCreateComponent{
     }
 
    this.taskService.addTask(form.value.taskInputField);
-   form.reset();
+   form.resetForm();
   }
 }

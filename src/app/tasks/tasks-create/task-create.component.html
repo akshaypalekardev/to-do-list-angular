@@ -1,9 +1,8 @@
 <mat-card>
   <form (submit)="onAddTask(taskForm)" #taskForm="ngForm">
     <mat-form-field class="example-full-width">
-      <mat-label>Enter a Task</mat-label>
       <input matInput autofocus type="text" placeholder="Add some tasks..." ngModel name="taskInputField" #taskField="ngModel" required>
-      <mat-error *ngIf="taskField.invalid">Kindly add a task</mat-error>
+      <mat-error *ngIf="taskField.invalid">No task added, kindly add a task</mat-error>
     </mat-form-field>
     <button mat-fab type="submit" color="primary">
       <mat-icon aria-hidden="false" aria-label="add">add</mat-icon>

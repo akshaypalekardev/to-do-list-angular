@@ -5,12 +5,14 @@
 
 mat-card{
   margin-top: 0.5rem;
+  font-size: x-large;
 }
 
 button{
   position: absolute;
-  left: 1025px;
+  left: 1015px;
   top: 8px;
+  font-size: large;
 }
 
 .info-text{

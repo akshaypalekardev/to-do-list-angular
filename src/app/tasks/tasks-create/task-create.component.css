@@ -5,4 +5,9 @@ mat-card{
 mat-form-field, input{
   width: 92%;
   margin-right: 25px;
+  font-size: x-large;
+}
+
+.mat-error {
+  color: #ffffff;
 }
