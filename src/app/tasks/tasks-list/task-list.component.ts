@@ -17,7 +17,6 @@ export class TaskListComponent implements OnInit, OnDestroy {
 
   //Automitcally created by angular when it creates the component to method to handle any additional initialization tasks.
   ngOnInit(){
-    this.taskList = this.taskService.getTasks();
     this.taskSub = this.taskService.getTaskUpdateListner().subscribe((tasks: Task[]) => {
       this.taskList = tasks;
     });

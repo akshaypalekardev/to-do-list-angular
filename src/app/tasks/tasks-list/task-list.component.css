@@ -4,14 +4,14 @@
 }
 
 mat-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 0.5rem;
   font-size: x-large;
 }
 
 button{
-  position: absolute;
-  left: 1015px;
-  top: 8px;
   font-size: large;
 }
 
