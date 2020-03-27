@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "aws-deploy": "aws s3 sync dist/to-do-angular/ s3://to-do-list-angular"
   },
   "private": true,
   "dependencies": {
