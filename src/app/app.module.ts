@@ -10,6 +10,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
+import { HttpClientModule } from '@angular/common/http';
+
 import { HeaderComponent } from './header/header.component';
 import { TaskCreateComponent } from './tasks/tasks-create/task-create.component';
 import { TaskListComponent } from './tasks/tasks-list/task-list.component';
@@ -31,6 +33,7 @@ import { TaskListComponent } from './tasks/tasks-list/task-list.component';
     MatButtonModule,
     MatIconModule,
     MatToolbarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
